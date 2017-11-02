@@ -1,1 +1,1 @@
-Sitemap: isg-uah.github.io/sitemap.xml
+Sitemap: http://isg.aut.uah.es/sitemap.xml
