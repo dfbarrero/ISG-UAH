@@ -1,35 +1,29 @@
 <!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.3 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
 
-<!-- begin SEO -->
-
-
-
-
-
-
-
-
-
-<title>ISG's website</title>
-
-
-
-
+<!-- begin _includes/seo.html --><title>ISG's website</title>
 <meta name="description" content="Intelligent Systems group">
 
 
+  <meta name="author" content="ISG-UAH">
 
 
+<meta property="og:type" content="website">
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="ISG's website">
 <meta property="og:title" content="ISG’s website">
+<meta property="og:url" content="http://isg.aut.uah.es/clm/">
 
 
-  <link rel="canonical" href="http://isg.aut.uah.es/clm/">
-  <meta property="og:url" content="http://isg.aut.uah.es/clm/">
+  <meta property="og:description" content="Intelligent Systems group">
 
 
 
@@ -46,11 +40,7 @@
   
 
   
-
-
-
-  
-
+    <meta name="twitter:creator" content="@isg_uah">
   
 
 
@@ -59,27 +49,33 @@
 
 
 
+  
+
+  
+
+
+<link rel="canonical" href="http://isg.aut.uah.es/clm/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "ISG-UAH",
+      "url": "http://isg.aut.uah.es/"
+    
+  }
+</script>
 
 
 
 
 
-  <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "Person",
-      "name" : "ISG-UAH",
-      "url" : "http://isg.aut.uah.es",
-      "sameAs" : null
-    }
-  </script>
 
-
-
-
-
-
-<!-- end SEO -->
+<!-- end _includes/seo.html -->
 
 
 <link href="http://isg.aut.uah.es/feed.xml" type="application/atom+xml" rel="alternate" title="ISG's website Feed">
@@ -103,47 +99,62 @@
 
     <!-- start custom head snippets -->
 
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
+
   </head>
 
   <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
-    <div class="masthead">
+
+    
+
+<div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://isg.aut.uah.es/">ISG's website</a></li>
+        
+        <a class="site-title" href="/">
+          ISG's website
           
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/publications/">Publications</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/projects/">Projects</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/staff/">Staff</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/research/">Research</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/media/">Media</a></li>
-          
-        </ul>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/staff/">Staff</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/media/">Media</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
 
-    
+
+    <div class="initial-content">
+      
 
 
 
@@ -152,22 +163,26 @@
   <div class="sidebar sticky">
   
 
-<div itemscope itemtype="http://schema.org/Person">
+
+<div itemscope itemtype="https://schema.org/Person">
 
   
     <div class="author__avatar">
       
-        <img src="http://isg.aut.uah.es/assets/img/isg.jpg" class="author__avatar" alt="ISG-UAH" itemprop="image">
+        <img src="/assets/img/isg.jpg" alt="ISG-UAH" itemprop="image">
       
     </div>
   
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">ISG-UAH</h3>
     
-      <p class="author__bio" itemprop="description">
-        Intelligent Systems Group, University of Alcalá
-      </p>
+      <h3 class="author__name" itemprop="name">ISG-UAH</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Intelligent Systems Group, University of Alcalá</p>
+
+      </div>
     
   </div>
 
@@ -175,8 +190,8 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       
-        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Alcalá de Henares, Spain</span>
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Alcalá de Henares, Spain</span>
         </li>
       
 
@@ -187,9 +202,11 @@
       
 
       
+
+      
         <li>
-          <a href="https://twitter.com/isg_uah" itemprop="sameAs">
-            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          <a href="https://twitter.com/isg_uah" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
           </a>
         </li>
       
@@ -207,13 +224,13 @@
       
 
       
-
-      
         <li>
-          <a href="https://github.com/ISG-UAH" itemprop="sameAs">
-            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          <a href="https://github.com/ISG-UAH" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
+      
+
       
 
       
@@ -231,8 +248,8 @@
       
         
           <li>
-            <a href="https://www.youtube.com/channel/UC6UuY5OwrCfAkIr08vzq3sg" itemprop="sameAs">
-              <i class="fa fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube
+            <a href="https://www.youtube.com/channel/UC6UuY5OwrCfAkIr08vzq3sg" itemprop="sameAs" rel="nofollow noopener noreferrer">
+              <i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span>
             </a>
           </li>
         
@@ -244,8 +261,8 @@
 
       
         <li>
-          <a href="https://www.flickr.com/isg-uah" itemprop="sameAs">
-            <i class="fa fa-fw fa-flickr" aria-hidden="true"></i> Flickr
+          <a href="https://www.flickr.com/isg-uah" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-flickr" aria-hidden="true"></i><span class="label">Flickr</span>
           </a>
         </li>
       
@@ -256,8 +273,8 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
-      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
 -->
@@ -269,7 +286,8 @@
   </div>
 
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     
     
     
@@ -284,6 +302,7 @@
       
 
       <section class="page__content" itemprop="text">
+        
         <style>
 #clm-logo{
 	text-align: center;
@@ -327,6 +346,7 @@ potenciar respuestas a preguntas fundamentales en biología y medicina.</p>
 
 
         
+
       </footer>
 
       
@@ -341,8 +361,11 @@ potenciar respuestas a preguntas fundamentales en biología y medicina.</p>
   
 </div>
 
+    </div>
 
-    <div class="page__footer">
+    
+
+    <div id="footer" class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
 
@@ -350,23 +373,26 @@ potenciar respuestas a preguntas fundamentales en biología y medicina.</p>
         <div class="page__footer-follow">
   <ul class="social-icons">
     
+
     
-      <li><a href="https://twitter.com/isg_uah"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-    
-    
-    
-      <li><a href="http://github.com/ISG-UAH"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-    
-    
-    <li><a href="http://isg.aut.uah.es/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2019 ISG-UAH. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2020 ISG-UAH. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
       </footer>
     </div>
 
-    <script src="http://isg.aut.uah.es/assets/js/main.min.js"></script>
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+
 
 
 
