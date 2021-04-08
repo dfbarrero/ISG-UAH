@@ -1,37 +1,34 @@
 <!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.22.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
 
-<!-- begin SEO -->
-
-
-
-
-
-
-
-
-
-<title>Staff - ISG’s website</title>
-
-
-
-
+<!-- begin _includes/seo.html --><title>Staff - ISG’s website</title>
 <meta name="description" content="Intelligent Systems group">
 
 
+  <meta name="author" content="ISG-UAH">
+  
 
 
+<meta property="og:type" content="website">
 <meta property="og:locale" content="en">
 <meta property="og:site_name" content="ISG's website">
 <meta property="og:title" content="Staff">
+<meta property="og:url" content="http://isg.aut.uah.es/staff/">
 
 
-  <link rel="canonical" href="http://isg.aut.uah.es/staff/">
-  <meta property="og:url" content="http://isg.aut.uah.es/staff/">
+  <meta property="og:description" content="Intelligent Systems group">
 
 
+
+  <meta property="og:image" content="http://isg.aut.uah.es/assets/img/vegas.jpg">
 
 
 
@@ -41,54 +38,54 @@
   <meta name="twitter:url" content="http://isg.aut.uah.es/staff/">
 
   
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="http://isg.aut.uah.es/assets/img/vegas.jpg">
+  
+
+  
+    <meta name="twitter:creator" content="@isg_uah">
+  
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://isg.aut.uah.es/staff/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
     
-  
-
-  
-
-
-
-  
-
-  
-
-
-
-  <meta property="og:image" content="http://isg.aut.uah.es/assets/img/vegas.jpg">
+      "@type": "Person",
+      "name": "ISG-UAH",
+      "url": "http://isg.aut.uah.es/"
+    
+  }
+</script>
 
 
 
 
 
 
+<!-- end _includes/seo.html -->
 
 
 
-
-  <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "Person",
-      "name" : "ISG-UAH",
-      "url" : "http://isg.aut.uah.es",
-      "sameAs" : null
-    }
-  </script>
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="ISG's website Feed">
 
 
-
-
-
-
-<!-- end SEO -->
-
-
-<link href="http://isg.aut.uah.es/feed.xml" type="application/atom+xml" rel="alternate" title="ISG's website Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
+<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
@@ -96,56 +93,84 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://isg.aut.uah.es/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
 
-<meta http-equiv="cleartype" content="on">
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- start custom head snippets -->
 
-<!-- insert favicons. use http://realfavicongenerator.net/ -->
-
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- end custom head snippets -->
+
   </head>
 
   <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
-    <div class="masthead">
+
+    
+
+<div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://isg.aut.uah.es/">ISG's website</a></li>
+        
+        <a class="site-title" href="/">
+          ISG's website
           
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/publications/">Publications</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/projects/">Projects</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/staff/">Staff</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/research/">Research</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://isg.aut.uah.es/media/">Media</a></li>
-          
-        </ul>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/publications/">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/staff/">Staff</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/media/">Media</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
 
-    
+
+    <div class="initial-content">
+      
   
 
 
@@ -155,17 +180,20 @@
 
 
 <div class="page__hero--overlay"
-  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://isg.aut.uah.es/assets/img/vegas.jpg');"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/vegas.jpg');"
 >
   
     <div class="wrapper">
-      <h1 class="page__title" itemprop="headline">
+      <h1 id="page-title" class="page__title" itemprop="headline">
         
           Staff
 
         
       </h1>
       
+      
+
+
       
       
     </div>
@@ -185,22 +213,26 @@
   <div class="sidebar sticky">
   
 
-<div itemscope itemtype="http://schema.org/Person">
+
+<div itemscope itemtype="https://schema.org/Person">
 
   
     <div class="author__avatar">
       
-        <img src="http://isg.aut.uah.es/assets/img/isg.jpg" class="author__avatar" alt="ISG-UAH" itemprop="image">
+        <img src="/assets/img/isg.jpg" alt="ISG-UAH" itemprop="image">
       
     </div>
   
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">ISG-UAH</h3>
     
-      <p class="author__bio" itemprop="description">
-        Intelligent Systems Group, University of Alcalá
-      </p>
+      <h3 class="author__name" itemprop="name">ISG-UAH</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Intelligent Systems Group, University of Alcalá</p>
+
+      </div>
     
   </div>
 
@@ -208,8 +240,8 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       
-        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Alcalá de Henares, Spain</span>
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Alcalá de Henares</span>
         </li>
       
 
@@ -220,9 +252,11 @@
       
 
       
+
+      
         <li>
-          <a href="https://twitter.com/isg_uah" itemprop="sameAs">
-            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          <a href="https://twitter.com/isg_uah" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span>
           </a>
         </li>
       
@@ -240,13 +274,13 @@
       
 
       
-
-      
         <li>
-          <a href="https://github.com/ISG-UAH" itemprop="sameAs">
-            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          <a href="https://github.com/ISG-UAH" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
           </a>
         </li>
+      
+
       
 
       
@@ -264,8 +298,8 @@
       
         
           <li>
-            <a href="https://www.youtube.com/channel/UC6UuY5OwrCfAkIr08vzq3sg" itemprop="sameAs">
-              <i class="fa fa-fw fa-youtube-square" aria-hidden="true"></i> YouTube
+            <a href="https://www.youtube.com/channel/UC6UuY5OwrCfAkIr08vzq3sg" itemprop="sameAs" rel="nofollow noopener noreferrer">
+              <i class="fab fa-fw fa-youtube" aria-hidden="true"></i><span class="label">YouTube</span>
             </a>
           </li>
         
@@ -277,8 +311,8 @@
 
       
         <li>
-          <a href="https://www.flickr.com/isg-uah" itemprop="sameAs">
-            <i class="fa fa-fw fa-flickr" aria-hidden="true"></i> Flickr
+          <a href="https://www.flickr.com/isg-uah" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-flickr" aria-hidden="true"></i><span class="label">Flickr</span>
           </a>
         </li>
       
@@ -289,8 +323,8 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
-      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
 -->
@@ -302,7 +336,8 @@
   </div>
 
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Staff">
     
     
@@ -312,6 +347,7 @@
       
 
       <section class="page__content" itemprop="text">
+        
         <style>
 
  /* Three columns side by side */
@@ -358,7 +394,7 @@
   <div class="column">
     <div class="card">
       <a href="https://atc1.aut.uah.es/~mdolores/">
-      <img src="http://isg.aut.uah.es///assets/img/malola.jpg" alt="María D. R-Moreno, PhD" style="width:100%" />
+      <img src="/assets/img/malola.jpg" alt="María D. R-Moreno, PhD" style="width:100%" />
       </a>
       <div class="container">
         <h2>María D. R-Moreno, PhD</h2>
@@ -377,11 +413,11 @@
   <div class="column">
     <div class="card">
       <a href="http://fropero.com/">
-      <img src="http://isg.aut.uah.es///assets/img/fernando.jpg" alt="Fernando Ropero" style="width:100%" />
+      <img src="/assets/img/fernando.jpg" alt="Fernando Ropero, PhD" style="width:100%" />
       </a>
       <div class="container">
-        <h2>Fernando Ropero</h2>
-        <p class="title">PhD student</p>
+        <h2>Fernando Ropero, PhD</h2>
+        <p class="title">Postdoc</p>
         <p>UAV-UGV cooperation, UAV controllers</p>
       </div>
     </div>
@@ -393,11 +429,11 @@
   <div class="column">
     <div class="card">
       <a href="https://pmunoz.es">
-      <img src="http://isg.aut.uah.es///assets/img/pmunoz.png" alt="Pablo Muñoz, PhD" style="width:100%" />
+      <img src="/assets/img/pmunoz.png" alt="Pablo Muñoz, PhD" style="width:100%" />
       </a>
       <div class="container">
         <h2>Pablo Muñoz, PhD</h2>
-        <p class="title">Postdoc</p>
+        <p class="title">Lecturer</p>
         <p>Planning and Scheduling, Space Robotics, path-planning</p>
       </div>
     </div>
@@ -411,24 +447,8 @@
  
   <div class="column">
     <div class="card">
-      <a href="https://www.linkedin.com/in/DanielVaquerizo-Hdez/">
-      <img src="http://isg.aut.uah.es///assets/img/daniel.jpg" alt="Daniel Vaquerizo" style="width:100%" />
-      </a>
-      <div class="container">
-        <h2>Daniel Vaquerizo</h2>
-        <p class="title">Researcher</p>
-        <p>Wireless Sensor Networks, hardware design</p>
-      </div>
-    </div>
-  </div>
-  </div>
-
-<div class="row"> 
- 
-  <div class="column">
-    <div class="card">
       <a href="https://atc1.aut.uah.es/~david/">
-      <img src="http://isg.aut.uah.es///assets/img/dfbarrero.jpg" alt="David F. Barrero, PhD" style="width:100%" />
+      <img src="/assets/img/dfbarrero.jpg" alt="David F. Barrero, PhD" style="width:100%" />
       </a>
       <div class="container">
         <h2>David F. Barrero, PhD</h2>
@@ -437,38 +457,19 @@
       </div>
     </div>
   </div>
- 
-
-   
-
- 
- 
- 
-  <div class="column">
-    <div class="card">
-      <a href="http://www.cc.uah.es/drg/">
-      <img src="http://isg.aut.uah.es///assets/img/drodriguez.jpg" alt="Daniel Rodríguez, PhD" style="width:100%" />
-      </a>
-      <div class="container">
-        <h2>Daniel Rodríguez, PhD</h2>
-        <p class="title">Associate professor</p>
-        <p>Machine Learning, Software Engineering</p>
-      </div>
-    </div>
-  </div>
   </div>
 
 <div class="row"> 
  
   <div class="column">
     <div class="card">
-      <a href="https://www.linkedin.com/in/bonifacio-casta%C3%B1o-mart%C3%ADn-47a00b1b">
-      <img src="http://isg.aut.uah.es///assets/img/bonifacio.jpg" alt="Bonifacio Castaño, PhD" style="width:100%" />
+      <a href="http://www.cc.uah.es/drg/">
+      <img src="/assets/img/drodriguez.jpg" alt="Daniel Rodríguez, PhD" style="width:100%" />
       </a>
       <div class="container">
-        <h2>Bonifacio Castaño, PhD</h2>
-        <p class="title">Assistant professor</p>
-        <p>Monte-Carlo methods, simulation, mathematical modelling</p>
+        <h2>Daniel Rodríguez, PhD</h2>
+        <p class="title">Associated professor</p>
+        <p>Machine Learning, Software Engineering</p>
       </div>
     </div>
   </div>
@@ -482,7 +483,7 @@
   <div class="column">
     <div class="card">
       <a href="http://www.linkedin.com/in/angel-moreno-blazquez">
-      <img src="http://isg.aut.uah.es///assets/img/angel.png" alt="Ángel Moreno Blázquez" style="width:100%" />
+      <img src="/assets/img/angel.png" alt="Ángel Moreno Blázquez" style="width:100%" />
       </a>
       <div class="container">
         <h2>Ángel Moreno Blázquez</h2>
@@ -493,6 +494,96 @@
   </div>
   </div>
 
+<div class="row"> 
+ 
+  <div class="column">
+    <div class="card">
+      <a href="https://scholar.google.com/citations?user=78fzpvgAAAAJ&amp;hl=en">
+      <img src="/assets/img/armando.jpg" alt="Armando Collado Villaverde" style="width:100%" />
+      </a>
+      <div class="container">
+        <h2>Armando Collado Villaverde</h2>
+        <p class="title">PhD student</p>
+        <p>Machine Learning, Deep Learning, AI in Videogames</p>
+      </div>
+    </div>
+  </div>
+ 
+
+   
+
+ 
+ 
+ 
+  <div class="column">
+    <div class="card">
+      <a href="https://github.com/R012">
+      <img src="/assets/img/mario.jpg" alt="Mario Cobos" style="width:100%" />
+      </a>
+      <div class="container">
+        <h2>Mario Cobos</h2>
+        <p class="title">PhD student</p>
+        <p>Machine Learning, Model Explainability y Solar Wind Prediction</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<div class="row"> 
+ 
+  <div class="column">
+    <div class="card">
+      <a href="https://scholar.google.es/citations?user=L3C_ixQAAAAJ&amp;hl=es">
+      <img src="/assets/img/joseaguilar.jpg" alt="José Aguilar, PhD" style="width:100%" />
+      </a>
+      <div class="container">
+        <h2>José Aguilar, PhD</h2>
+        <p class="title">Marie Curie Researcher</p>
+        <p>Machine Learning, computational intelligence, multi-agent systems, semantic mining, combinatorial optimization, pattern recognition, control and automation systems</p>
+      </div>
+    </div>
+  </div>
+ 
+
+   
+
+ 
+ 
+ 
+  <div class="column">
+    <div class="card">
+      <a href="https://sites.google.com/site/babarmeher/home">
+      <img src="/assets/img/muhammad.jpg" alt="Muhammad Babar Rasheed, PhD" style="width:100%" />
+      </a>
+      <div class="container">
+        <h2>Muhammad Babar Rasheed, PhD</h2>
+        <p class="title">Marie Curie Researcher</p>
+        <p>Optimization Algorithms, Energy Management and Smart Grids</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<div class="row"> 
+ 
+  <div class="column">
+    <div class="card">
+      <a href="https://es.linkedin.com/in/hugoalvarezchaves">
+      <img src="/assets/img/hugo.jpg" alt="Hugo Álvarez Chaves" style="width:100%" />
+      </a>
+      <div class="container">
+        <h2>Hugo Álvarez Chaves</h2>
+        <p class="title">Researcher</p>
+        <p>Machine Learning, Deep Learning</p>
+      </div>
+    </div>
+  </div>
+ 
+
+   
+
+
+</div>
 
         
       </section>
@@ -503,6 +594,7 @@
 
 
         
+
       </footer>
 
       
@@ -517,8 +609,11 @@
   
 </div>
 
+    </div>
 
-    <div class="page__footer">
+    
+
+    <div id="footer" class="page__footer">
       <footer>
         <!-- start custom footer snippets -->
 
@@ -526,23 +621,27 @@
         <div class="page__footer-follow">
   <ul class="social-icons">
     
+
     
-      <li><a href="https://twitter.com/isg_uah"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+
     
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
     
-    
-      <li><a href="http://github.com/ISG-UAH"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-    
-    
-    <li><a href="http://isg.aut.uah.es/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 ISG-UAH. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2021 ISG-UAH. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
       </footer>
     </div>
 
-    <script src="http://isg.aut.uah.es/assets/js/main.min.js"></script>
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
 
 
 
